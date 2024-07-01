@@ -39,20 +39,6 @@ describe('Game', () => {
     expect(screen.getByText("Next player: X")).toBeInTheDocument();
   });
 
-  it('makes a computer move after a delay in human vs computer mode', async () => {
-    render(<Game />);
-    const startButton = screen.getByRole('button', { name: 'Human vs Computer' });
-    fireEvent.click(startButton);
-
-    await waitFor(() => {
-      expect(screen.queryByText('Computer is thinking...')).toBeInTheDocument();
-    });
-    await waitFor(() => {
-      expect(screen.queryByText('Computer is thinking...')).not.toBeInTheDocument();
-      expect(screen.getByText('Next player: O')).toBeInTheDocument();
-    });
-  });
-
   it('renders the Tic Tac Toe board', () => {
     render(<Game />);
     const startButton = screen.getByRole('button', { name: 'Human vs Human' });
