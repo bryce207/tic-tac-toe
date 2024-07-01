@@ -2,8 +2,8 @@ import React from "react";
 import styled, {css} from "styled-components";
 
 const CellButton = styled.button<{ disabled: boolean }>`
-  background-color: #000; // Dark background
-  color: #fff; // White text
+  background-color: #000;
+  color: #fff;
   border: 2px solid #fff;
   font-size: 72px;
   line-height: 1;

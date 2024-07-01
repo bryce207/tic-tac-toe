@@ -21,15 +21,15 @@ const GameContainer = styled.div`
   height: 100vh;
   align-items: center;
   padding: 20px;
-  font-family: "Roboto Mono", monospace; // Stylish font
-  color: #f0f0f0; // Light text for dark background
+  font-family: "Roboto Mono", monospace;
+  color: #f0f0f0;
   background: linear-gradient(
     45deg,
     #4158d0,
     #c850c0
-  ); // Neon gradient background
-  border-radius: 10px; // Rounded corners
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Subtle shadow
+  );
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   @media (max-width: 768px) {
     width: 90%;
@@ -49,8 +49,8 @@ const StatusMessage = styled.p`
 `;
 
 const Button = styled.button`
-  background: #f0f0f0; // Light background
-  color: #4158d0; // Purple text
+  background: #f0f0f0;
+  color: #4158d0;
   margin: 10px;
   padding: 10px 20px;
   border: none;
@@ -65,10 +65,10 @@ const Button = styled.button`
 `;
 const ThinkingMessage = styled.div`
 position: absolute;
-  display: flex; /* Use flexbox for easy alignment */
-  align-items: center; /* Vertical alignment */
-  justify-content: center; /* Horizontal alignment */
-  gap: 10px; /* Add some space between the spinner and text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   margin-top: 20px;
 `;
 
