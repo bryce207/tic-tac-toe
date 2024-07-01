@@ -60,7 +60,7 @@ To install and run the Tic Tac Toe application, follow these steps:
 
 1. Clone the GitHub repository to your local machine:
     ```
-    git clone https://github.com/your-username/tic-tac-toe.git
+    git clone https://github.com/bryce207/tic-tac-toe.git
     ```
 
 2. Navigate to the project directory:
@@ -68,13 +68,9 @@ To install and run the Tic Tac Toe application, follow these steps:
     cd tic-tac-toe
     ```
 
-3. Install the dependencies using npm or yarn:
+3. Install the dependencies using npm:
     ```
     npm install
-    ```
-    or
-    ```
-    yarn install
     ```
 
 ## Running the Application
@@ -82,10 +78,6 @@ To run the Tic Tac Toe application, use the following command:
 
 ```
 npm run dev
-```
-or
-```
-yarn dev
 ```
 
 This will start the application on a local development server. Open your web browser and visit `http://localhost:3000` to access the application.
@@ -96,10 +88,6 @@ To run the unit tests for the Tic Tac Toe application, use the following command
 ```
 npm run test
 ```
-or
-```
-yarn test
-```
 
 This will execute the test suite and display the results in the console.
 
@@ -108,10 +96,6 @@ To generate a coverage report for the unit tests, use the following command:
 
 ```
 npm run test:coverage
-```
-or
-```
-yarn test:coverage
 ```
 
 This will generate a detailed coverage report in the `coverage` directory.
