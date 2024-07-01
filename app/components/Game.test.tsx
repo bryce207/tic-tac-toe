@@ -44,9 +44,6 @@ describe('Game', () => {
     const startButton = screen.getByRole('button', { name: 'Human vs Computer' });
     fireEvent.click(startButton);
 
-    const cells = screen.getAllByTestId('cell');
-    fireEvent.click(cells[0]);
-
     await waitFor(() => {
       expect(screen.queryByText('Computer is thinking...')).toBeInTheDocument();
     });
